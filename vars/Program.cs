@@ -25,7 +25,7 @@ namespace vars
             Console.WriteLine("El valor de 'd' es : {0:F2}", d);
             Console.WriteLine("El valor de 'cadena' es : " +cadena);
             Console.WriteLine("El valor de 'flag' es : " + flag.ToString());
-            Console.WriteLine("El valor de 'date' es : {0}", i);
+            Console.WriteLine("El valor de 'date' es : "+ date.ToShortDateString());
             Console.ReadKey();
 
         }
